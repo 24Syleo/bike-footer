@@ -1,0 +1,76 @@
+body{
+    background-color: #f5f5f5;
+    font-family: 'lato', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color:#353738;
+}
+
+.grid-photo{
+    display: grid;
+    grid-template: 1fr 1fr / repeat(6, 1fr);
+}
+
+.trois{
+    grid-column-start: 3;
+    grid-row-start:1;
+    grid-row: span 2;
+}
+
+.quatre{
+    grid-column-start: 4;
+    grid-row-start:1;
+    grid-row: span 2;
+}
+
+.cinq{
+    grid-column-start: 5;
+    grid-column: span 2;
+}
+.six{
+    grid-column-start: 1;
+    grid-column: span 2;
+    grid-row-start: 2;
+}
+
+.grid-photo img{
+    position: relative;
+    width: 100%;
+}
+
+.grid-photo img:hover{
+    opacity: 0.3;
+}
+
+.discover{
+    height: 200px;
+}
+
+.btn-shop{
+    border: solid 1px lightgrey;
+    color: lightgray;
+    background-color: #353738;
+}
+
+.btn-shop:hover{
+    color:#353738;
+    background-color: lightgray;
+    border: #353738;
+}
+
+.socialLink > .twitter:hover{
+    color:#1DA1F2;
+}
+
+.socialLink > .facebook:hover{
+    color:#4267B2;
+}
+
+.socialLink > .pinterest:hover{
+    color:#e60023;
+}
+
+.socialLink:hover{
+    transform: scale(1.5);
+    transition: 0.3s all ease-in-out;
+}
