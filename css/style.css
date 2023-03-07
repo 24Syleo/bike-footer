@@ -4,7 +4,7 @@ body{
     font-weight: 700;
     color:#353738;
 }
-
+/* disposition des photos dans le shop */
 .grid-photo-shop{
     display: grid;
     grid-template: 1fr 1fr / repeat(6, 1fr);
@@ -32,6 +32,7 @@ body{
     grid-row-start: 2;
 }
 
+/* hover pour possibilite de selection */
 .grid-photo-shop img{
     position: relative;
     width: 100%;
@@ -41,6 +42,7 @@ body{
     opacity: 0.3;
 }
 
+/* bouton shop sur fond noir */
 .btn-shop{
     border: solid 1px lightgrey;
     color: lightgray;
@@ -52,7 +54,7 @@ body{
     background-color: lightgray;
     border: #353738;
 }
-
+/* partie footer */
 .socialLink > .twitter:hover{
     color:#1DA1F2;
 }
@@ -69,7 +71,8 @@ body{
     transform: scale(1.5);
     transition: 0.3s all ease-in-out;
 }
-  
+
+/* position bouteille partie retro */
 .sprite1{
     width: 70px;
     height: 70px;
