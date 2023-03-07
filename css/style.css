@@ -78,3 +78,9 @@ body{
     height: 70px;
     margin: 3px auto 0 auto;
 }
+
+/* partie vintage daniel */
+.Vintage{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+}

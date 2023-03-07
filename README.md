@@ -2,4 +2,6 @@
 
 ## bootstrap
 
-###CSS GRID
+### CSS GRID
+
+integration de la partie de Daniel
