@@ -5,44 +5,40 @@ body{
     color:#353738;
 }
 
-.grid-photo{
+.grid-photo-shop{
     display: grid;
     grid-template: 1fr 1fr / repeat(6, 1fr);
 }
 
-.trois{
+.trois-shop{
     grid-column-start: 3;
     grid-row-start:1;
     grid-row: span 2;
 }
 
-.quatre{
+.quatre-shop{
     grid-column-start: 4;
     grid-row-start:1;
     grid-row: span 2;
 }
 
-.cinq{
+.cinq-shop{
     grid-column-start: 5;
     grid-column: span 2;
 }
-.six{
+.six-shop{
     grid-column-start: 1;
     grid-column: span 2;
     grid-row-start: 2;
 }
 
-.grid-photo img{
+.grid-photo-shop img{
     position: relative;
     width: 100%;
 }
 
-.grid-photo img:hover{
+.grid-photo-shop img:hover{
     opacity: 0.3;
-}
-
-.discover{
-    height: 200px;
 }
 
 .btn-shop{
