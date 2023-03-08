@@ -84,10 +84,3 @@ header{
     transition: 0.3s all ease-in-out;
 }
 
-/* position bouteille partie retro */
-.sprite1{
-    width: 70px;
-    height: 70px;
-    margin: 3px auto 0 auto;
-}
-
